@@ -1,0 +1,28 @@
+main {
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+}
+
+aside {
+    width: 20ch;
+    background-color: var(--color-light-grey);
+    height: 800px;
+}
+
+section {
+    flex-grow: 1;
+    background-color: var(--color-light-grey);
+    padding: 0.75em;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+article {
+    width: 20ch;
+    height: 250px;
+    background-color: var(--color-white);
+}
